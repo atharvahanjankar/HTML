@@ -91,3 +91,38 @@ a:active{
     background-color: burlywood;
     font-size: 100px;
 }
+/* ul{
+    list-style-type:square;
+}
+ol{
+    list-style-type: lower-;
+} */
+
+li{
+    /* list-style-type: upper-latin; */
+    list-style-position:inside;
+    list-style-image:url("bullet2.gif");
+    
+}
+.liststyle1{
+    list-style-type:square;
+    list-style-position:outside;
+    list-style-image:url("bullet1.jpg");
+}
+
+
+th,tr,table,td{
+    /* border:2px dotted black; */
+    text-align: center;
+    /* border-style:solid; */
+    /* border-width:2px; */
+    border-radius: 5px;
+    border-bottom:10px solid #affd;
+    border-top:2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    /* border-collapse: collapse; */
+    padding:10px;
+    margin:10px
+
+}
