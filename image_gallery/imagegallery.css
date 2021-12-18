@@ -1,0 +1,22 @@
+.img_1{
+    float:left;
+    margin:5px;
+    opacity:0.4;
+}
+.para_1{
+    text-align: center;
+}
+
+.img_1:hover{
+    border: 3px solid red;
+    opacity: 1;
+}
+nav{
+    background-color: brown;
+    height: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: cornsilk;
+    margin: 100px;
+}
